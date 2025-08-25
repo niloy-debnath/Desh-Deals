@@ -3,9 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+
+    <title>Deshi Deals | Home</title>
+
+    <!-- Fav Icon -->
+
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <!-- Tailwind CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
-  <body>
-    <h1>Git Updated</h1>
+  <body class="">
+    <header class="shadow-xl py-3">
+      <nav class="flex justify-center items-center gap-3">
+        <div class="w-[16]">
+          <img src="./assets/logo.png" class="w-20 h-20" alt="" />
+        </div>
+        <div>
+          <h1 class="text-5xl text-[#e71580]">
+            Deshi <span class="text-5xl font-bold text-[#E71580]">Deals</span>
+          </h1>
+          <p class="text-[#797075] text-lg">Cheap Price , Best Quality</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Banner Section -->
+
+      <section
+        class="flex-col justify-center items-center text-center bg-linear-to-b mt-1 py-36 from-[#FFFFFF] to-[#F6DDEA]"
+      >
+        <div class="">
+          <h1 class="font-bold text-[#111111] text-6xl">
+            Purchase TK 200 or above & get <br />
+            <span class="text-[#E527B2]">20% off</span>
+          </h1>
+        </div>
+        <div class="flex justify-center my-5">
+          <div class="flex justify-between items-center w-2xl">
+            <p class="text-2xl text-[#111111]">Use Promo Code</p>
+            <button
+              class="bg-[#E527B2] w-64 text-white rounded-xl py-4 px-9 text-2xl"
+            >
+              SELL200
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img src="./assets/hero-bg.png" alt="" class="mb-[-250px]" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
